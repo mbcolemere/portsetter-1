@@ -1,0 +1,9 @@
+Error: demasiados argumentos
+setport versión 
+demasiados argumentos
+Error: debe proporcionar un número de puerto
+Error: No válido Número de puerto
+Escucha en el puerto:
+Variable de entorno no válido
+Error: parámetro no válido
+Error: Desconocido

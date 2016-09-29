@@ -1,0 +1,12 @@
+USO
+====================
+
+-h, --help, -?		Imprimir pantalla Uso
+-p, --port		    seleccione Puerto
+                        Ejemplo: setport --port 8080
+-v, --version       Imprimir el número de versión
+-e [PUERTO]           Utilice una variable de entorno como el número de puerto.
+                            Nota: Si no se proporciona variable default PORT
+                        Ejemplo: setport -p -e PORT_NUMBER
+
+====================

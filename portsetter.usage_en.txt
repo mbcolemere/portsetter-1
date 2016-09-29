@@ -1,0 +1,12 @@
+USAGE
+====================
+
+-h, --help, -?		Print Usage Screen
+-p, --port		    Select Port 
+                        Example: setport --port 8080
+-v, --version       Print Version Number
+-e [PORT]           Use a Environment Variable as the port number.
+                            Note: If variable is not provided default to PORT
+                        Example: setport -p -e PORT_NUMBER
+
+====================
