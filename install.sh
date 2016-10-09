@@ -1,6 +1,6 @@
 g++ -std=c++11 portsetter.cpp -o portsetter.o
 sudo mv ./portsetter.o /usr/local/bin/setport
-if [ ! -d "~/files/setport" ]; then
+if [ ! -d "/files/setport" ]; then
   sudo mkdir ~/files
   sudo mkdir ~/files/setport
 fi
