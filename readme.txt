@@ -1,4 +1,4 @@
-To install simply run the install.sh file in a bash terminal!
+To install simply run the install.sh file from a bash terminal! (command: "sudo bash install.sh")
 
 All included files must be in the same directory as the install.sh when run.
 The usage files will be placed in the /files/setport directory of the current user.
