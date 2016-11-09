@@ -52,7 +52,7 @@ int main(int argc, char* args[]) {
         if (!usage()){ return -5; }
         return 0;
     }
-    else if (argc >= 4 && string(args[2]) != "-e") {
+    else if (argc >= 4 && string(args[2]) != "-e" || argc >= 4 && string(args[2]) != "--environment") {
         cout << output(1) << endl; //"Error: too many arguments"
         if (!usage()){ return -5; }
         return 1;
@@ -87,7 +87,7 @@ int main(int argc, char* args[]) {
               if (!usage()){ return -5; }
               return -1;
           }
-          if (string(args[2]) == "-e") {
+          if (string(args[2]) == "-e" || string(args[2]) == "--environment") {
               char* pPath;
               if (argc < 4) {
                 pPath = getenv ("PORT");
