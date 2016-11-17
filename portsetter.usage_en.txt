@@ -6,7 +6,7 @@ USAGE
                         Example: setport --port 8080
 -v, --version       Print Version Number
 -e [PORT]           Use a Environment Variable as the port number.
-                            Note: If variable is not provided default to PORT
+--environment [PORT] Note: If variable is not provided default to PORT
                         Example: setport -p -e PORT_NUMBER
 
 ====================
